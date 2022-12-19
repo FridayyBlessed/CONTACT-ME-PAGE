@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    background-color:skyblue;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0px;
+}
+
+.container-1{
+    width:80%;
+    margin: auto;
+   
+}
+
+.type1{
+    width:30%;
+    margin: 0px auto;
+    display:block;
+    margin-top: 15px;
+}
+
+.box{
+    box-sizing:border-box;
+    border:1px coral solid;
+    color:white;
+    background-color: black;
+    margin-top:10px;
+    border: 5px red solid;
+border-width: 5px;
+padding:20px;
+margin-top: 20px;
+text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+#main-header{
+    text-align: center;
+    color:white;
+    background-color: coral;
+}
+
+
+#navbar{
+    background-color: black;
+color: white;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#navbar li{
+    display:inline;
+    padding-right: 20px;
+    margin:20px;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar{
+    text-align: center;
+    font-size: 20px;
+}
+
+#navbar a:hover{
+    color: red;
+}
+
+#navbar a:active{
+    color:green;
+}
+
+.button{
+    align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:black;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    border-radius:18px;
+}
+
+.button:hover{
+    color:red;
+}
+
+.button:active{
+    color:greenyellow;
+}
+
+.button{
+    display: inline;
+    padding-right: 20px;
+    margin-left:600px;
+}
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+display: block;
+}
+
+.my-form input[type="text"],.my-form textarea{
+    padding:8px;
+    width:80%;
+}
+.container-2{
+    width:80%;
+    margin:auto;
+}
+
+.box{
+    background-color:#333;
+    color:white;
+    margin:0;
+    padding:20px;
+    border:5px red solid;
+    border-width:5px;
+    margin-top:30px;
+}
+
+
+
